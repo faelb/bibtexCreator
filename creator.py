@@ -1,3 +1,6 @@
+import pyperclip3
+
+
 def main():
     refIndex = input("Enter refIndex")
     author = input("Enter author")
@@ -14,7 +17,8 @@ def main():
                 +url+'},\r\n} '
 
     print(blueprint)
-
+    print("The bibtext was stored to your clipboard (use Ctrl V to paste it)")
+    pyperclip3.copy(blueprint)
 
 if __name__ == "__main__":
     main()
