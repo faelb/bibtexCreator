@@ -7,8 +7,8 @@ def crawlData(url):
     article = NewsPlease.from_url(url)
     return article
 def main():
-    #url = input("Enter url")
-    url="https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/"
+    url = input("Enter url")
+    #url="https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/"
     article = crawlData(url)
     #create a refIndex with a hash and use first 10 digits, to be sure its unique
     hash = hashlib.sha1(url.encode("utf-8"))
