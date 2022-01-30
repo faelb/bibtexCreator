@@ -44,6 +44,7 @@ Then the bibtex will be copied to your clipboard so you can just paste it with C
  
  this means that for example: https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/
  is transformed to:
+ 
  @Article{3TeVoT4=,
   author  = {Annmarie Hanlon and Lilach Bullock},
   journal = {smartinsights.com},
