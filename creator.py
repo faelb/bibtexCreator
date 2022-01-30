@@ -68,7 +68,7 @@ def main():
     print("")
     blueprint = '@Article{'+refIndex+',\r\n  author  = {'+author+'},\r\n  journal = {'+journal+'},' \
                 '\r\n  title   = {'+title+'},\r\n  year    = {'+year+'},\r\n  note    = {' \
-                +accessed+'},\r\n  url     = {' \
+                +"accessed: "+accessed+'},\r\n  url     = {' \
                 +url+'},\r\n} '
 
     print(blueprint)
