@@ -45,13 +45,13 @@ Then the bibtex will be copied to your clipboard so you can just paste it with C
  this means that for example: https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/
  is transformed to:
  
- @Article{3TeVoT4=,
-  author  = {Annmarie Hanlon and Lilach Bullock},
-  journal = {smartinsights.com},
-  title   = {Global social media statistics research summary 2022},
-  year    = {2022},
-  note    = {30.01.2022},
-  url     = {https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/},
+ @Article{3TeVoT4=,<br />
+  author  = {Annmarie Hanlon and Lilach Bullock},<br />
+  journal = {smartinsights.com},<br />
+  title   = {Global social media statistics research summary 2022},<br />
+  year    = {2022},<br />
+  note    = {30.01.2022},<br />
+  url     = {https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/},<br />
 } 
 
 
