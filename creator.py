@@ -37,16 +37,44 @@ def main():
     accessed = article.date_download.strftime("%d") +"." + article.date_download.strftime("%m") +"." +  article.date_download.strftime("%Y")
 
 
+    print("please confirm or change the parameters:")
+    print(f"author = {author}")
+    userinput = input("change author? type in author now or press Enter")
+    if userinput:
+        author = userinput
+    print("")
+    print("")
+    print(f"journal = {journal}")
+    userinput = input("change journal? type in journal now or press Enter")
+    if userinput:
+        journal = userinput
+    print("")
+    print("")
+    print(f"title = {title}")
+    userinput = input("change title? type in title now or press Enter")
+    if userinput:
+        title = userinput
+    print("")
+    print("")
+    print(f"year = {year}")
+    userinput = input("change year published? type in year now or press Enter")
+    if userinput:
+        journal = userinput
 
-
-
-
+    print("-------------------------------------------------")
+    print("")
+    print("This is your Bibtex:")
+    print("")
+    print("")
     blueprint = '@Article{'+refIndex+',\r\n  author  = {'+author+'},\r\n  journal = {'+journal+'},' \
                 '\r\n  title   = {'+title+'},\r\n  year    = {'+year+'},\r\n  note    = {' \
                 +accessed+'},\r\n  url     = {' \
                 +url+'},\r\n} '
 
     print(blueprint)
+    print("")
+    print("")
+    print("-------------------------------------------------")
     print("The bibtext was stored to your clipboard (use Ctrl V to paste it)")
     pyperclip3.copy(blueprint)
 
