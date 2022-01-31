@@ -70,7 +70,7 @@ def main():
     print(f"year = {year}")
     userinput = input("change year published? type in year now or press Enter")
     if userinput:
-        journal = userinput
+        year = userinput
 
     print("-------------------------------------------------")
     print("")
